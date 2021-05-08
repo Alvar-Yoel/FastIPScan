@@ -9,6 +9,7 @@ Nos copiaremos el script en nuestro equipo y le daremos privilegios de ejecucion
 #chmod +x FastIPScan.sh
 
 Ahora lo ejecutaremos poniendo
+
 #./FastIPScan.sh
 
 -Dime el rango de IP's a escanear (Ejemplo: 192.168.1.{1-255}): <IP's a escanear>

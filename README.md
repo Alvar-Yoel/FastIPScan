@@ -16,6 +16,6 @@ Ahora lo ejecutaremos poniendo
 
 Cuando se ejecute empezara a mandar un ping a todo el rango de IP's y a detectar si estan activos
 
-# OPTIONAL:
+# OPCIONAL:
 -Tambien si quieres puedes cambiarle el nombre a FastIPScan y meterlo en /usr/bin para que lo detecte como un comando del sistema
 

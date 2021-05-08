@@ -13,6 +13,7 @@ Ahora lo ejecutaremos poniendo
 #./FastIPScan.sh
 
 -Dime el rango de IP's a escanear (Ejemplo: 192.168.1.{1-255}): <IP's a escanear>
+
 Cuando se ejecute empezara a mandar un ping a todo el rango de IP's y a detectar si estan activos
 
 # OPTIONAL:

@@ -28,7 +28,7 @@ trap "salir" EXIT
 #Rango de IP's a escanear
 #
 clear
-read -p "[+] Introduce el segmento de IP's a scanear: (Ejemplo: 192.168.1)  " ip
+read -p "[*] Introduce el segmento de IP's a scanear: (Ejemplo: 192.168.1)  " ip
 if [ $ip != "" ]
 then
     echo -e "${greenColour}[+]${endColour} Avanzando con ${redColour}$ip${endColour}"

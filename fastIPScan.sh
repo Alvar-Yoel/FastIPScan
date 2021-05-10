@@ -44,7 +44,7 @@ for i in $ip.{1..254}
 do
 is_alive_ping $i & disown
 done
-sleep 1
+sleep 2
 echo -e "${turquoiseColour}----------------------------------------${endColour}"
 
 #

@@ -31,7 +31,7 @@ clear
 read -p "[*] Introduce el segmento de IP's a scanear: (Ejemplo: 192.168.1)  " ip
 if [ $ip != "" ]
 then
-    echo -e "${greenColour}[+]${endColour} Avanzando con ${redColour}$ip${endColour}"
+    echo -e "${greenColour}[+]${endColour} Escaneando el segmento ${redColour}$ip/24${endColour}"
 	is_alive_ping()
 {
   ping -c 1 $1 > /dev/null

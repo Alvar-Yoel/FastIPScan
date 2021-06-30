@@ -15,14 +15,15 @@ grayColour="\e[0;37m\033[1m"
 #
 #Dice Saliendo...
 #
-function salir() {
+function ctrl_c() {
 	echo -e "\n${redColour}[-]${endColour} Saliendo...\n"
+	exit 1
 }
 
 #
 #Cuando sale del programa salta la funcion saliendo
 #
-trap "salir" EXIT
+trap ctrl_c INT
 
 #
 #Rango de IP's a escanear
